@@ -28,8 +28,8 @@
 <meta property="og:site_name" content="Microservice Architecture Research">
 <meta property="og:description" content="Fixing StrategiesA summary of 13 distinct fixing strategies derived from real-world practitioner data. This part categorizes the solutions used to resolve cross-service defects, providing actionable g">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2026-01-16T15:17:25.395Z">
-<meta property="article:modified_time" content="2026-01-16T15:17:25.395Z">
+<meta property="article:published_time" content="2026-01-16T15:21:45.763Z">
+<meta property="article:modified_time" content="2026-01-16T15:21:45.763Z">
 <meta property="article:author" content="cross-service-defects">
 <meta property="article:tag" content="Microservice, Architecture, Research, Hexo, NexT">
 <meta name="twitter:card" content="summary">
@@ -162,7 +162,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Fixing-Strategies"><span class="nav-number">1.</span> <span class="nav-text">Fixing Strategies</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Configuration-Defects"><span class="nav-number">1.1.</span> <span class="nav-text">Service Configuration Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Build-and-Dependency-Defects"><span class="nav-number">1.2.</span> <span class="nav-text">Service Build and Dependency Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Functionality-Defects"><span class="nav-number">1.3.</span> <span class="nav-text">Service Functionality Defects</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Fixing-Strategies"><span class="nav-number">1.</span> <span class="nav-text">Fixing Strategies</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Configuration-Defects"><span class="nav-number">1.1.</span> <span class="nav-text">Service Configuration Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Build-and-Dependency-Defects"><span class="nav-number">1.2.</span> <span class="nav-text">Service Build and Dependency Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Functionality-Defects"><span class="nav-number">1.3.</span> <span class="nav-text">Service Functionality Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Communication-Defects"><span class="nav-number">1.4.</span> <span class="nav-text">Service Communication Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Data-Consistency-Defects"><span class="nav-number">1.5.</span> <span class="nav-text">Service Data Consistency Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Deployment-Defects"><span class="nav-number">1.6.</span> <span class="nav-text">Service Deployment Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Security-Defects"><span class="nav-number">1.7.</span> <span class="nav-text">Service Security Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Structure-and-Code-Specification-Defects"><span class="nav-number">1.8.</span> <span class="nav-text">Service Structure and Code Specification Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cross-service-Logging-Defects"><span class="nav-number">1.9.</span> <span class="nav-text">Cross-service Logging Defects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Service-Exception-Handling-Defects"><span class="nav-number">1.10.</span> <span class="nav-text">Service Exception Handling Defects</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -2153,6 +2153,1579 @@
 <td>1</td>
 <td></td>
 <td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="Service-Communication-Defects"><a href="#Service-Communication-Defects" class="headerlink" title="Service Communication Defects"></a>Service Communication Defects</h2><style>
+  table {
+    width: 100%;
+  }
+  td:nth-child(1) {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    min-width: 200px;
+    width: 30%;
+  }
+  td {
+    font-size: 0.85em;
+  }
+</style>
+
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Defect Category</th>
+<th>Description</th>
+<th>Assignment</th>
+<th>Conditional Logic</th>
+<th>Configuration</th>
+<th>Data</th>
+<th>Dependencies</th>
+<th>Documentation</th>
+<th>Exception Handling</th>
+<th>Methods</th>
+<th>Loops</th>
+<th>Syntax</th>
+<th>Scripting</th>
+<th>Resources (Images, Files)</th>
+<th>Project Structure or Code Specification</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>https://github.com/anasabbal/mini-uber-microservice/commit/4bcefe2150b9fdace67aa258f179c10da0b0bc96</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/anasabbal/mini-uber-microservice/commit/a39f2f07eea87e649ba0d5a792ded897fc188724</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/doctore/Spring5Microservices/commit/f353c160377f1ad2f80be90d5ec21b79925c569b</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/doctore/Spring5Microservices/commit/dcd70a65e086989619b98d49cf8210aec4ea3897</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/acbe5e83f31da5e9e50a367145d4b3ae2d4e7c97</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/anasabbal/mini-uber-microservice/commit/4bcefe2150b9fdace67aa258f179c10da0b0bc96</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/anasabbal/mini-uber-microservice/commit/a39f2f07eea87e649ba0d5a792ded897fc188724</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/ab01b4f60acc571c05c0bdfdb89eced011e4c1df</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/8164985349155558d16f0d28258a96bfc2b1194e</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/fd2854ec5e67be0fb184f97757635558dfd54716</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/fe060ad517d8e36bd6273cea559d1a62c88a93d3</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/ad91a2a0296696cbdfedf9d42d8ee0890a0eeb48</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/417891c3aa9c23b7d65ea22b10ecb12f6c1a15de</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/xcyeye/aurora-blog/commit/7aadc8c5d9586ed547415124e426439984cb0e21</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/xcyeye/aurora-blog/commit/e2cb2e4c1b10e84068e0b52fd5f74281e2df670b</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/xcyeye/aurora-blog/commit/e6bd2e3891f146deb9ab374fe830ea6eab0b1b84</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/xcyeye/aurora-blog/commit/f571fbcdf61f87924336f7248fb74e50e8ed8ab2</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/xcyeye/aurora-blog/commit/c056d5f4f119d838b47e08776962428c73b6c90f</code></td>
+<td>Service Communication Defects</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="Service-Data-Consistency-Defects"><a href="#Service-Data-Consistency-Defects" class="headerlink" title="Service Data Consistency Defects"></a>Service Data Consistency Defects</h2><style>
+  table {
+    width: 100%;
+  }
+  td:nth-child(1) {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    min-width: 200px;
+    width: 30%;
+  }
+  td {
+    font-size: 0.85em;
+  }
+</style>
+
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Defect Category</th>
+<th>Description</th>
+<th>Assignment</th>
+<th>Conditional Logic</th>
+<th>Configuration</th>
+<th>Data</th>
+<th>Dependencies</th>
+<th>Documentation</th>
+<th>Exception Handling</th>
+<th>Methods</th>
+<th>Loops</th>
+<th>Syntax</th>
+<th>Scripting</th>
+<th>Resources (Images, Files)</th>
+<th>Project Structure or Code Specification</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/4daa0af59b898fba3dd60ee4cb37fad5e08e62a5</code></td>
+<td>Service Data Consistency Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/lamp-cloud/commit/782052c7d19ee1f6d38e929656756eb67ec4e451</code></td>
+<td>Service Data Consistency Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/lamp-cloud/commit/91b264ca978ffa22b2949a89f14d8d8e18bdfced</code></td>
+<td>Service Data Consistency Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/ded1eca6654701948d7062243bd1ac2acd72f75c</code></td>
+<td>Service Data Consistency Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/c76da2ba096c2b936c1697a5c43d159276a22ae1</code></td>
+<td>Service Data Consistency Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/909d55904ed2a8568be3a6fb86fdda3953061fb9</code></td>
+<td>Service Data Consistency Defects</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/8f5485b82e0931511c934e60addd4d49daae9475</code></td>
+<td>Service Data Consistency Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/risesoft-y9/Digital-Infrastructure/commit/1c282aa9e6f34329f3fe0e304d2183413f4cb1df</code></td>
+<td>Service Data Consistency Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/xcyeye/aurora-blog/commit/8b2357237c69e5be986bf88bbe7ccff21afd9ab4</code></td>
+<td>Service Data Consistency Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="Service-Deployment-Defects"><a href="#Service-Deployment-Defects" class="headerlink" title="Service Deployment Defects"></a>Service Deployment Defects</h2><style>
+  table {
+    width: 100%;
+  }
+  td:nth-child(1) {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    min-width: 200px;
+    width: 30%;
+  }
+  td {
+    font-size: 0.85em;
+  }
+</style>
+
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Defect Category</th>
+<th>Description</th>
+<th>Assignment</th>
+<th>Conditional Logic</th>
+<th>Configuration</th>
+<th>Data</th>
+<th>Dependencies</th>
+<th>Documentation</th>
+<th>Exception Handling</th>
+<th>Methods</th>
+<th>Loops</th>
+<th>Syntax</th>
+<th>Scripting</th>
+<th>Resources (Images, Files)</th>
+<th>Project Structure or Code Specification</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/37f8c114b38d7e006cbc46732df304b35a06b8fc</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/a02ac948ce486e65a711ba262187f6c2de39bb50</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/0f22fe05bb8f79afa24f619046cc8e3f2e842281</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/f14356c4fb3879048b199b212ec33480979223cc</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/lamp-cloud/commit/1a1eb4210040bc36d82346e7e6de8c991cad41a6</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/1c6171d7e9b2760bda1dbe14839288e3e1f82b66</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/b8dfc9262fd08f377266aff9c8690cf1781834c5</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/shuigedeng/taotao-cloud-project/commit/628836aba3c7f57c37f07f6a3b609748ca14caa7</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/shuigedeng/taotao-cloud-project/commit/e3d5dc8e57b2984e81065102b036d47aaf550f0e</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/shuigedeng/taotao-cloud-project/commit/444944baca13c3106ca48d7fa0f55ecc31cfb0fc</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/micaellobo/e-commerce-store/commit/a9c27d0133a4c6c43260090bdca6c2c54bc087f2</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/shuigedeng/taotao-cloud-project/commit/159cab2b832b9010d569b6ae4c5c6f379645e67b</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/shuigedeng/taotao-cloud-project/commit/9b26fa7e3587ad525f364d7a6e79bd189d9980d4</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/shuigedeng/taotao-cloud-project/commit/64a8068e7e2c4b9252210303834fa25fb910399a</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/shuigedeng/taotao-cloud-project/commit/9dba59a8d3c62a04dc30a41075a370470d3929e4</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/shuigedeng/taotao-cloud-project/commit/6edf4bb16bdb0ced05553b9773da9a0828b2a1a6</code></td>
+<td>Service Deployment Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="Service-Security-Defects"><a href="#Service-Security-Defects" class="headerlink" title="Service Security Defects"></a>Service Security Defects</h2><style>
+  table {
+    width: 100%;
+  }
+  td:nth-child(1) {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    min-width: 200px;
+    width: 30%;
+  }
+  td {
+    font-size: 0.85em;
+  }
+</style>
+
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Defect Category</th>
+<th>Description</th>
+<th>Assignment</th>
+<th>Conditional Logic</th>
+<th>Configuration</th>
+<th>Data</th>
+<th>Dependencies</th>
+<th>Documentation</th>
+<th>Exception Handling</th>
+<th>Methods</th>
+<th>Loops</th>
+<th>Syntax</th>
+<th>Scripting</th>
+<th>Resources (Images, Files)</th>
+<th>Project Structure or Code Specification</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/23cf00b63c9af044ed344827104bc5a3b170cb0d</code></td>
+<td>Service Security Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/f016a3c822a9e84dbca84f0a941bfe8a5cd13af8</code></td>
+<td>Service Security Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/xcyeye/aurora-blog/commit/7aadc8c5d9586ed547415124e426439984cb0e21</code></td>
+<td>Service Security Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/c7be9b9ffc1675053d9a3048dcacb6ef03e64492</code></td>
+<td>Service Security Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/ce72d0f99537fe6a989871a3e36b388d2645f6f6</code></td>
+<td>Service Security Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/myashchenko/social-network/commit/8a115827780d85e74d3741576979713b0d6c2000</code></td>
+<td>Service Security Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="Service-Structure-and-Code-Specification-Defects"><a href="#Service-Structure-and-Code-Specification-Defects" class="headerlink" title="Service Structure and Code Specification Defects"></a>Service Structure and Code Specification Defects</h2><style>
+  table {
+    width: 100%;
+  }
+  td:nth-child(1) {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    min-width: 200px;
+    width: 30%;
+  }
+  td {
+    font-size: 0.85em;
+  }
+</style>
+
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Defect Category</th>
+<th>Description</th>
+<th>Assignment</th>
+<th>Conditional Logic</th>
+<th>Configuration</th>
+<th>Data</th>
+<th>Dependencies</th>
+<th>Documentation</th>
+<th>Exception Handling</th>
+<th>Methods</th>
+<th>Loops</th>
+<th>Syntax</th>
+<th>Scripting</th>
+<th>Resources (Images, Files)</th>
+<th>Project Structure or Code Specification</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/f5d9fe23697cac179769b5e6e2130fede2490a70</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/911c1c2477e059c0901b7ac517263c51513e2da8</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/nageoffer/congomall/commit/7c4310324974926f9d33a9de23e33d937b0c23db</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/nageoffer/congomall/commit/bfdc31209cd9eb5a30eb3295422c60d6ae518771</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/shuigedeng/taotao-cloud-project/commit/762d1ebbd8717befb5992fd1bf4df6a78af601b3</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/sindaZeng/XHuiCloud/commit/f94545123adbee45dfd280a1c8a01ff20ec07b12</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/xcyeye/aurora-blog/commit/d69d9b1b1afac68d89ef2c161c697ec94e8138a3</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/a390ac20cdcce6f60fce86dca1297d7c3d3bacd0</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/8fff195d1d7a0320211ad387db663dcc44fa6284</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/micaellobo/e-commerce-store/commit/12963b5c24a6ab5efc6ca473ea165eff741a069e</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/219be96755f10ad132f9c2a9bf26b49899bf1986</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/4d22c7e62f3f74eedbf7e984f900df029a31bb1e</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/risesoft-y9/Digital-Infrastructure/commit/0d102eb489e197fd746c4c476deb086f1dba1f9f</code></td>
+<td>Service Structure and Code Specification Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+</tbody></table>
+<h2 id="Cross-service-Logging-Defects"><a href="#Cross-service-Logging-Defects" class="headerlink" title="Cross-service Logging Defects"></a>Cross-service Logging Defects</h2><style>
+  table {
+    width: 100%;
+  }
+  td:nth-child(1) {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    min-width: 200px;
+    width: 30%;
+  }
+  td {
+    font-size: 0.85em;
+  }
+</style>
+
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Defect Category</th>
+<th>Description</th>
+<th>Assignment</th>
+<th>Conditional Logic</th>
+<th>Configuration</th>
+<th>Data</th>
+<th>Dependencies</th>
+<th>Documentation</th>
+<th>Exception Handling</th>
+<th>Methods</th>
+<th>Loops</th>
+<th>Syntax</th>
+<th>Scripting</th>
+<th>Resources (Images, Files)</th>
+<th>Project Structure or Code Specification</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/90916c87b002183e29ddd9a62acb11d38a313b39</code></td>
+<td>Cross-service Logging Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/bc900b590ef1754053c50ddbdfac138989c29e9d</code></td>
+<td>Cross-service Logging Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/7137bb5b73552108dae45eebaaf639a930e32416</code></td>
+<td>Cross-service Logging Defects</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/98a179010f5892c0a81cce65f22abfd32ee43116</code></td>
+<td>Cross-service Logging Defects</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/xcyeye/aurora-blog/commit/452494a33afd1d0c0b05a5c375951f2b4deeaba5</code></td>
+<td>Cross-service Logging Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/KouShenhai/KCloud-Platform-IoT/commit/11fb4593ed6368a283c3cfbae24402edb9ffaf81</code></td>
+<td>Cross-service Logging Defects</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/dante-cloud/commit/c9eaf688cea5ca6137a42680f909942800f0bafb</code></td>
+<td>Cross-service Logging Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/dromara/lamp-cloud/commit/f74012c07cdf0d2d3a87abb8fca46c9b1c5a3154</code></td>
+<td>Cross-service Logging Defects</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="Service-Exception-Handling-Defects"><a href="#Service-Exception-Handling-Defects" class="headerlink" title="Service Exception Handling Defects"></a>Service Exception Handling Defects</h2><style>
+  table {
+    width: 100%;
+  }
+  td:nth-child(1) {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    min-width: 200px;
+    width: 30%;
+  }
+  td {
+    font-size: 0.85em;
+  }
+</style>
+
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Defect Category</th>
+<th>Description</th>
+<th>Assignment</th>
+<th>Conditional Logic</th>
+<th>Configuration</th>
+<th>Data</th>
+<th>Dependencies</th>
+<th>Documentation</th>
+<th>Exception Handling</th>
+<th>Methods</th>
+<th>Loops</th>
+<th>Syntax</th>
+<th>Scripting</th>
+<th>Resources (Images, Files)</th>
+<th>Project Structure or Code Specification</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>https://github.com/doctore/Spring5Microservices/commit/f353c160377f1ad2f80be90d5ec21b79925c569b</code></td>
+<td>Service Exception Handling Defects</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>https://github.com/doctore/Spring5Microservices/commit/dcd70a65e086989619b98d49cf8210aec4ea3897</code></td>
+<td>Service Exception Handling Defects</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>https://github.com/kartik1502/Spring-Boot-Microservices-Banking-Application/commit/07d4c9cb70c59c0002b94af84fea5314ee02e8e8</code></td>
+<td>Service Exception Handling Defects</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
